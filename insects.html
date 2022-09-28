@@ -13,7 +13,27 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
-
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#InsectNavbarContent" aria-controls="InsectNavbarContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="InsectNavbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="insects.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <h1>Insects by Shruthi Chinthakayala</h1>
 <div class="container">
   <div class="row">
@@ -39,18 +59,18 @@
  
  <div class = container></div>
  <div>
-     <img src="bee.jpg" alt="honey bee" class="image-fluid"width="400px" height="450px">
-     <img src="inchworm.jpg" alt="Inchworm" class="image-fluid"width="400px" height="450px">
-     <img src="fly.jpg" alt="house fly" class="image-fluid"width="400px" height="450px">
+     <img src="bee.jpg" alt="honey bee" class="image-fluid"width="220px" height="200px">
+     <img src="inchworm.jpg" alt="Inchworm" class="image-fluid"width="200px" height="100px">
+     <img src="fly.jpg" alt="house fly" class="image-fluid"width="200px" height="220px">
      </div>
      <div class = container></div>
      <div>
 
          <br>
          <br>
-         <image src ="bee.jpg" class="img-thumbnail" alt="honey bee" width="400px" height="400px">
-         <image src ="inchworm.jpg" class="img-thumbnail" alt="inch worm" width="400px" height="400px">
-         <image src ="fly.jpg" class="img-thumbnail" alt="house fly"width="400px" height="400px">
+         <image src ="bee.jpg" class="img-thumbnail" alt="honey bee" width="200px" height="250px">
+         <image src ="inchworm.jpg" class="img-thumbnail" alt="inch worm" width="200px" height="250px">
+         <image src ="fly.jpg" class="img-thumbnail" alt="house fly"width="200px" height="250px">
      </div>
  </div>
  </div>
@@ -107,5 +127,113 @@
       </tr>
     </tbody>
   </table>
+  <label>BUTTON</label>
+  <div class="btn">
+  <button type="button" class="btn btn-outline-dark">C</button>
+  <button type="button" class="btn btn-outline-dark">H</button>
+  <button type="button" class="btn btn-outline-dark">I</button>
+  <button type="button" class="btn btn-outline-dark">N</button>
+  <button type="button" class="btn btn-outline-dark">T</button>
+  <button type="button" class="btn btn-outline-dark">H</button>
+  </div>
+  <br>
+  <label>BUTTON GROUPS :</label>
+  <div class="container btn-toolbar">
+    <div class="btn-group" role="group" aria-label="Images">
+      <button type="button" class="btn btn-success">C</button>
+      <button type="button" class="btn btn-success">H</button>
+      <button type="button" class="btn btn-success">I</button>
+    </div>  
+    <div class="btn-group" role="group" aria-label="warning">
+      <button type="button" class="btn btn-warning">N</button>
+      <button type="button" class="btn btn-warning">T</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="danger">
+      <button type="button" class="btn btn-danger">H</button>
+    </div>
+  </div>
+    <br>
+    <div class="container">
+      <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+              Menu
+          </button>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="basic.html">Basic</a>
+              <a class="dropdown-item" href="advanced.html">Advanced</a>
+          </div>
+      </div>
+  </div>
+  <br>
+  <div class="container">
+    <form action="">
+        <div class="form-group">
+            <label for="InsectEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="InsectEmail" 
+            aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+            <label for="InsectInput" class="form-label">Insect</label>
+            <input type="text" class="form-control" id="InsectInput" 
+            placeholder="Enter Your Insect">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="InsectCheck">
+            <label class="form-check-label" for="InsectCheck">Sign up for newsletter?</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+      <div class="col-md">
+          <div class="card" style="width: 20rem;">
+              <img src="bee.jpg" class="card-img-top" alt="HoneyBee">
+              <div class="card-body">
+                  <h5 class="card-title">Honeybee</h5>
+                  <p class="card-text">
+                    A Honey bee is a eusocial flying insect within the genus
+                    Apis of the bee clade, all native to Afro-Eurasia.
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Honey_bee" class="btn btn-dark">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 20rem;">
+              <img src="fly.jpg" class="card-img-top" alt="House Fly">
+              <div class="card-body">
+                  <h5 class="card-title">Housefly</h5>
+                  <p class="card-text">
+                      The housefly (Musca domestica) is a fly of the suborder Cyclorrhapha. 
+                      It is believed to have evolved in the Cenozoic Era, possibly in the Middle East, and has spread all over the world as a commensal of humans
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Housefly" class="btn btn-dark">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 20rem;">
+              <img src="inchworm.jpg" class="card-img-top" alt="inchworm">
+              <div class="card-body">
+                  <h5 class="card-title">inchworm</h5>
+                  <p class="card-text">
+                    An inchworm is the caterpillar of a Geometer moth. 
+                  </p>
+                  <a href="https://www.allthingsnature.org/what-are-inchworms.htm" class="btn btn-dark">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<br>
 </body>
 </html>
